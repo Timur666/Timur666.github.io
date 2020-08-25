@@ -1,0 +1,1305 @@
+/* line 2, ../../Users/johns/Desktop/project_uber/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 1, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+/* line 6, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+nav {
+  height: 50px;
+  object-fit: contain;
+  background-color: #212121;
+}
+
+/* line 11, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+nav .hamburger {
+  display: none;
+}
+
+/* line 14, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  width-object-fit: contain;
+  width-font-family: Roboto;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 29, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.label_white {
+  background-color: #fff;
+  color: #000;
+}
+
+/* line 33, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  line-height: 38px;
+  object-fit: contain;
+  object-fit-font-family: Roboto;
+  object-fit-font-weight: bold;
+  object-fit-letter-spacing: normal;
+  object-fit-font-style: normal;
+  object-fit-font-stretch: normal;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 48, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.title_white {
+  color: #fff;
+}
+
+/* line 51, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subtitle {
+  position: relative;
+  margin-top: 19px;
+  color: #222222;
+  color-font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-weight-font-stretch: normal;
+  font-weight-font-style: normal;
+  font-weight-letter-spacing: normal;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 63, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subtitle_white {
+  color: #fff;
+}
+
+/* line 66, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.menu {
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 73, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.menu .menu_link {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* line 84, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 87, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 90, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 97, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 102, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader .subheader_official {
+  object-fit: contain;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff80;
+  margin-top: 6px;
+}
+
+/* line 115, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader .subheader_call {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 19px;
+}
+
+/* line 127, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader .subheader_phone {
+  display: block;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 8px;
+  line-height: 12px;
+}
+
+/* line 141, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader .xs-visible {
+  display: none;
+}
+
+/* line 144, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  object-fit: contain;
+  box-shadow: inset 0px -3px 0 0 #0000001e;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  object-fit: contain;
+  text-shadow: 0.7px 0.7px 0 #00000035;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 19px;
+}
+
+/* line 31, ../../Users/johns/Desktop/project_uber/src/sass/_mixins.sass */
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 165, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/bg_hat.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 170, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.promo .promo_header {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* line 183, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.promo .promo_subheader {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 22px;
+}
+
+/* line 197, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.promo .promo_descr {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+/* line 210, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.promo .promo_btn {
+  display: block;
+  width: 259px;
+  height: 63px;
+  object-fit: contain;
+  box-shadow: inset 0px -4px 0 0 #0000001e;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  object-fit: contain;
+  text-shadow: 0.7px 0.7px 0 #00000035;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 118px;
+}
+
+/* line 31, ../../Users/johns/Desktop/project_uber/src/sass/_mixins.sass */
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 233, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages {
+  padding-top: 71px;
+  padding-bottom: 65px;
+  min-height: 900px;
+}
+
+/* line 238, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_name {
+  width: 112px;
+  height: 24px;
+  object-fit: contain;
+  background-color: #000000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+/* line 241, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_header {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 48px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+  margin-top: 38px;
+}
+
+/* line 244, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 250, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_item .adv_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 260, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_item .adv_text {
+  width: 343px;
+}
+
+/* line 263, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_item .adv_text .adv_p {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 21px;
+  letter-spacing: normal;
+  text-align: justify;
+}
+
+/* line 274, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.advantages .adv_item .adv_text .adv_subheader {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #1eacc7;
+}
+
+/* line 285, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  background: url("../img/bg/bg_white.jpg") center center/cover no-repeat;
+}
+
+/* line 291, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 294, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_name {
+  width: 112px;
+  height: 24px;
+  object-fit: contain;
+  background-color: #000000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+/* line 298, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_header {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 48px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+  margin-top: 38px;
+}
+
+/* line 301, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_subheader {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+  margin-top: 19px;
+}
+
+/* line 313, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  padding-top: 92px;
+  margin-bottom: 19px;
+  position: relative;
+}
+
+/* line 321, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_1 {
+  background: url("../img/mobile_app/img1.png") center center/cover no-repeat;
+}
+
+/* line 324, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_2 {
+  background: url("../img/mobile_app/img2.png") center center/cover no-repeat;
+}
+
+/* line 327, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_3 {
+  background: url("../img/mobile_app/img3.png") center center/cover no-repeat;
+}
+
+/* line 330, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_4 {
+  background: url("../img/mobile_app/img4.png") center center/cover no-repeat;
+}
+
+/* line 333, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_5 {
+  background: url("../img/mobile_app/img5.png") center center/cover no-repeat;
+}
+
+/* line 336, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_6 {
+  background: url("../img/mobile_app/img6.png") center center/cover no-repeat;
+}
+
+/* line 339, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item .mob_item_subtitle {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 350, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  background-color: #000000;
+  border-radius: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 365, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1aecc7;
+  transition: 0.2s;
+}
+
+/* line 372, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_plus:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 14px;
+  background-color: #1aecc7;
+  transition: 0.2s;
+}
+
+/* line 383, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.mobile .mob_item_plus:hover:before, .mobile .mob_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 386, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.choice {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../img/bg/bg_white.jpg") center center/cover no-repeat;
+}
+
+/* line 392, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.choice_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 397, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.choice_descr {
+  text-align: center;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 403, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 412, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require {
+  padding-top: 68px;
+  padding-bottom: 85px;
+}
+
+/* line 416, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 418, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0;
+}
+
+/* line 421, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_title {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1ca8c3;
+}
+
+/* line 432, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 436, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+/* line 448, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/ticks/blue_tick.svg") center center/cover no-repeat;
+}
+
+/* line 458, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require_descr {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1ca8c3;
+}
+
+/* line 470, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require .orange .require_title {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff5656;
+}
+
+/* line 481, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require .orange .require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 485, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require .orange .require_list li {
+  position: relative;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+/* line 497, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.require .orange .require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/ticks/red_tick.svg") center center/cover no-repeat;
+}
+
+/* line 507, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.cities {
+  background: url("../img/bg/bg_map.jpg") center center/cover no-repeat;
+  min-height: 717px;
+  padding: 49px 0 49px 0;
+}
+
+/* line 512, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.cities .label {
+  width: 76px;
+}
+
+/* line 515, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.cities_link_list {
+  display: block;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1fbad6;
+  margin: 0 auto;
+  margin-top: 486px;
+  transition: 0.2s;
+}
+
+/* line 529, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+.cities_link_list:hover {
+  color: #188699;
+}
+
+/* line 532, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer {
+  height: 148px;
+  padding: 14px 0 31px 0;
+  position: relative;
+}
+
+/* line 537, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer::before {
+  content: '';
+  display: block;
+  width: 299px;
+  height: 4px;
+  object-fit: contain;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 546, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .main_links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 0;
+}
+
+/* line 555, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .main_links li a.link {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #070716;
+}
+
+/* line 566, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .extra_links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 0;
+}
+
+/* line 575, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .extra_links li a {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999999;
+}
+
+/* line 586, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .language {
+  display: block;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1fbad6;
+  margin: 0 auto;
+  margin-top: 19px;
+}
+
+/* line 600, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .soc_nets {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 153px;
+  bottom: 65px;
+  left: 22px;
+}
+
+/* line 608, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .soc_nets_item {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 616, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .soc_nets_item img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 622, ../../Users/johns/Desktop/project_uber/src/sass/_general.sass */
+footer .stores {
+  display: block;
+  position: absolute;
+  bottom: 69px;
+  right: 23px;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 13px;
+  }
+  /* line 9, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 50px;
+  }
+  /* line 13, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item {
+    align-items: flex-start;
+  }
+  /* line 15, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item .adv_text {
+    width: 300px;
+  }
+  /* line 19, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .mob_item {
+    width: 290px;
+  }
+  /* line 21, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .mob_item .mob_subtitle {
+    font-size: 22px;
+  }
+  padding: 55px 0;
+  min-height: 840px;
+}
+
+@media (max-width: 991px) {
+  /* line 32, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 8px;
+  }
+  /* line 34, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 10px;
+  }
+  /* line 38, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_logo img {
+    width: 100%;
+  }
+  /* line 40, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_official {
+    font-size: 11px;
+  }
+  /* line 42, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 44, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    margin-top: 21px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 50, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_header {
+    font-size: 40px;
+  }
+  /* line 52, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 56, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 59, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item .adv_round {
+    margin-right: 0;
+  }
+  /* line 61, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item .adv_text {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 65, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .cities {
+    min-height: 650px;
+  }
+  /* line 69, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice .choice_img {
+    width: 100%;
+  }
+  /* line 73, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer::before {
+    content: '';
+    display: block;
+    width: 280px;
+    height: 4px;
+    object-fit: contain;
+    background-color: #1fbad6;
+    margin: 0 auto;
+  }
+  /* line 84, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .main_links li a.link {
+    font-size: 10px;
+  }
+  /* line 89, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .extra_links li a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 93, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s;
+  }
+  /* line 105, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+    z-index: 100;
+  }
+  /* line 107, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu_active .menu_item {
+    padding-right: 0;
+    border: none;
+    margin-top: 10px;
+  }
+  /* line 111, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu_active .menu_link {
+    font-size: 20px;
+  }
+  /* line 115, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  nav .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 123, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  nav .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s;
+  }
+  /* line 131, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  nav .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 133, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  nav .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 135, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  nav .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 137, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  nav .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 140, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 142, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 146, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* line 158, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 166, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_header {
+    line-height: 45px;
+  }
+  /* line 169, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer {
+    height: 155px;
+  }
+  /* line 171, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .soc_nets {
+    bottom: 0px;
+  }
+  /* line 173, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .stores {
+    bottom: 0px;
+  }
+  /* line 177, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .main_links li a.link {
+    font-size: 15px;
+  }
+  /* line 181, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .extra_links li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 185, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+  }
+  /* line 187, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_official {
+    display: none;
+  }
+  /* line 190, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 193, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 11px;
+  }
+  /* line 204, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 6px;
+  }
+  /* line 217, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 113px 0 35px 0;
+  }
+  /* line 220, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_descr {
+    display: none;
+  }
+  /* line 222, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_header {
+    padding: 0 24px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  /* line 226, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_subheader {
+    padding: 0 10px;
+    font-size: 20px;
+    margin-top: 33px;
+    line-height: 30px;
+  }
+  /* line 231, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .promo .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 72px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* line 244, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 247, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages {
+    padding: 22px 0 50px 0;
+  }
+  /* line 251, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item .adv_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 254, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .advantages .adv_item .adv_text {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 258, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 263, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    margin-top: 11px;
+    line-height: 21px;
+  }
+  /* line 268, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .mobile {
+    padding-top: 30px;
+    padding-bottom: 43px;
+  }
+  /* line 272, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .mobile .mob_item {
+    width: 100%;
+    height: 254px;
+    padding: 81px 43px 28px 43px;
+  }
+  /* line 276, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .mobile .mob_item .mob_item_subtitle {
+    object-fit: contain;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* line 287, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice {
+    padding: 25px 0 33px 0;
+    min-height: 390px;
+    background: none;
+    background-color: #070716;
+  }
+  /* line 292, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice .subtitle {
+    display: none;
+  }
+  /* line 294, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice .title {
+    display: none;
+  }
+  /* line 296, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice .choice_img {
+    margin-top: 35px;
+  }
+  /* line 298, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice .choice_descr {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* line 308, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  .choice .black {
+    display: none;
+  }
+  /* line 311, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer {
+    min-height: 245px;
+    padding: 24px 0 9px 0;
+  }
+  /* line 314, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer::before {
+    content: '';
+    display: block;
+    width: 253px;
+    height: 4px;
+    object-fit: contain;
+    background-color: #1fbad6;
+    margin: 0 auto;
+  }
+  /* line 323, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .main_links {
+    margin-top: 19px;
+  }
+  /* line 326, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .main_links li a.link {
+    font-size: 14px;
+  }
+  /* line 328, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .extra_links {
+    margin-top: 11px;
+  }
+  /* line 331, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .extra_links li a {
+    font-size: 9px;
+  }
+  /* line 333, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .language {
+    margin-top: 12px;
+  }
+  /* line 335, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .soc_nets {
+    bottom: 53px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* line 339, ../../Users/johns/Desktop/project_uber/src/sass/_media.sass */
+  footer .stores {
+    bottom: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
